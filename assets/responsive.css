@@ -1,0 +1,109 @@
+@media (width <= 1250px) {
+  .section {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (width <=1150px) {
+  .section {
+    padding: 2rem;
+  }
+}
+
+@media (width <=1030px) {
+  .web-location {
+    display: none;
+  }
+  .mob-location {
+    display: flex;
+  }
+}
+
+@media (width <=930px) {
+  .hero-content {
+    width: 100%;
+  }
+  .grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width <=830px) {
+  .hero-container {
+    background-size: auto 100%;
+    background-position: right;
+  }
+
+  .main-heading + p {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media (width <=660px) {
+  .hero-content,
+  .hero-input-container,
+  .hero-input-wrraper {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-input-wrraper > input {
+    width: 50%;
+  }
+}
+
+@media (width <=540px) {
+  .mob-location {
+    display: none;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .header-btns,
+  .btn {
+    gap: 0.5rem;
+  }
+
+  .grid-four-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .product-img + p,
+  .product-btn {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .drop-up a i{
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (width <=475px) {
+  .hero-input-wrraper {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .hero-input-wrraper > input {
+    width: 100%;
+  }
+}
+
+@media (width <=460px) {
+  .main-heading {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+  }
+}
+@media (width <=430px) {
+  .header-btns .btn {
+    display: none;
+  }
+  .header-btns .btn-secondary {
+    display: block;
+  }
+}

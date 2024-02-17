@@ -1,0 +1,211 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link
+      rel="shortcut icon"
+      href="./assets/images/icon.png"
+      type="image/x-icon"
+    />
+  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      ,
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--!== style sheets ===-->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <title>Food Wagon</title>
+  </head>
+  <body>
+    <!-------- header start ------------>
+    <div id="home" class="header-container w-100">
+      <header
+        class="header transition-3 section m-auto d-flex dir-col p-relative"
+      >
+        <!----todo----- mob-location ------>
+        <div class="location mob-location d-flex al-center jc-center d-none">
+          <span class="bold txt-center d-flex al-center jc-center txt-cap"
+            >delivery to:
+          </span>
+
+          <span class="txt-center d-flex al-center jc-center txt-cap"
+            ><img src="./assets/images/map.png" alt="" /> &nbsp; current
+            location</span
+          >
+
+          <span class="bold d-flex al-center jc-center txt-cap"
+            >Muhammadpur Bas Stand, Dhaka</span
+          >
+        </div>
+
+        <!----todo ------ header content ------->
+        <div class="header-content d-flex jc-between w-100">
+          <!------- logo ------->
+          <div class="logo h-100 pointer">
+            <img
+              src="./assets/images/Logo.png"
+              alt=""
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <!------ location ----->
+          <div class="location web-location d-flex al-center jc-center">
+            <span class="bold txt-center d-flex al-center jc-center txt-cap"
+              >delivery to:
+            </span>
+
+            <span class="txt-center d-flex al-center jc-center txt-cap"
+              ><img src="./assets/images/map.png" alt="" /> &nbsp; current
+              location</span
+            >
+
+            <span class="bold d-flex al-center jc-center txt-cap"
+              >Muhammadpur Bas Stand, Dhaka</span
+            >
+          </div>
+          <!------ header buttons --------->
+          <div class="header-btns d-flex al-center jc-center">
+            <button class="d-flex al-center jc-center btn">
+              <img
+                src="./assets/images/Search.png"
+                alt="this is search buttons image"
+              />
+              <span class="txt-cap">search food</span>
+            </button>
+            <button class="d-flex al-center jc-center btn btn-secondary">
+              <img
+                src="./assets/images/user.png"
+                alt="this is user buttons image"
+              />
+              <span class="txt-cap">log in</span>
+            </button>
+          </div>
+        </div>
+
+        <!------- toggle btns ------>
+        <div class="toggle-btns d-none pointer d-flex al-center jc-center">
+          <i class="fa-solid fa-bars menu-bar d-none"></i>
+          <i class="fa-solid fa-xmark cancel-btn d-none"></i>
+        </div>
+      </header>
+    </div>
+    <div class="main-container m-auto">
+      <!--------- hero sec -------------->
+      <main class="section hero-container d-flex al-center jc-between">
+        <div class="hero-content d-flex jc-center dir-col">
+          <h1 class="main-heading txt-center">Are you starving?</h1>
+          <p class="txt-cap txt-center">
+            within a few clicks, find meals that are accessible near you
+          </p>
+
+          <div class="hero-input-container w-100 d-flex al-start dir-col">
+            <div class="hero-input-btns d-flex jc-start">
+              <button class="btn txt-cap d-flex al-center jc-center bold">
+                <img src="./assets/images/Icon.png" alt="" /> delivery
+              </button>
+              <button class="btn txt-cap d-flex al-center jc-center bold">
+                <img src="./assets/images/Icon (1).png" alt="" /> pickup
+              </button>
+            </div>
+
+            <div class="hero-input-wrraper d-flex al-center jc-start w-100">
+              <input type="text" placeholder="Enter Your Address" id="" />
+              <button class="input-btn btn d-flex al-center jc-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Find Food
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!----------- next section ------------>
+      <div class="products-container section grid grid-four-cols">
+        <!-----todo ----- item one ------>
+        <div class="products-item dir-col d-flex jc-start">
+          <div class="product-img">
+            <img
+              src="./assets/images/Food Photo (1).png"
+              width="100%"
+              height="100%"
+              alt=""
+            />
+          </div>
+
+          <p class="txt-cap product-heading">greys vage</p>
+          <button class="btn product-btn txt-cap d-flex al-center jc-start">
+            6 days remaining
+          </button>
+        </div>
+
+        <!-------todo ------ item two -------->
+        <div class="products-item dir-col d-flex jc-start">
+          <div class="product-img">
+            <img
+              src="./assets/images/Food Photo (2).png"
+              width="100%"
+              height="100%"
+              alt=""
+            />
+          </div>
+
+          <p class="txt-cap product-heading">greys vage</p>
+          <button class="btn product-btn txt-cap d-flex al-center jc-start">
+            6 days remaining
+          </button>
+        </div>
+
+        <!---- todo ----- item three ------>
+        <div class="products-item dir-col d-flex jc-start">
+          <div class="product-img">
+            <img
+              src="./assets/images/Food Photo (3).png"
+              width="100%"
+              height="100%"
+              alt=""
+            />
+          </div>
+
+          <p class="txt-cap product-heading">greys vage</p>
+          <button class="btn product-btn txt-cap d-flex al-center jc-start">
+            6 days remaining
+          </button>
+        </div>
+
+        <!--- todo ------ item one ------>
+        <div class="products-item dir-col d-flex jc-start">
+          <div class="product-img">
+            <img
+              src="./assets/images/Food Photo.png"
+              width="100%"
+              height="100%"
+              alt=""
+            />
+          </div>
+
+          <p class="txt-cap product-heading">greys vage</p>
+          <button class="btn product-btn txt-cap d-flex al-center jc-start">
+            6 days remaining
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="drop-up d-flex al-center jc-center p-fixed">
+      <a href="#home"
+        ><i class="fa-solid fa-angle-up d-flex jc-center al-center"></i
+      ></a>
+    </div>
+    
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
